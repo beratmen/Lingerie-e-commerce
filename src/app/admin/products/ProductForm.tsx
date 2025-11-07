@@ -340,3 +340,4 @@ export default function ProductForm({ onSubmit, onCancel }: ProductFormProps) {
     </div>
   );
 } 
+

@@ -25,4 +25,5 @@ app.prepare().then(() => {
     console.log(`> Ready on http://${hostname}:${port}`);
     console.log('> Local URL: http://localhost:8080');
   });
-}); 
+});
+ 
