@@ -1,0 +1,35 @@
+{
+  "name": "lingerie-store",
+  "version": "1.0.0",
+  "description": "Premium lingerie e-commerce site",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "lucide-react": "^0.294.0",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "20.10.4",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "typescript": "5.3.3"
+  }
+}
